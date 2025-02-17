@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Knowledge-Hub',
+  tagline: 'Knowledge-Hub',
+  favicon: 'img/knowledgehub.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://marcoj18.github.io.knowledge-hub.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Ordenatech', // Usually your GitHub org/user name.
+  projectName: 'Knowledge Hub', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -46,8 +46,18 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://marcoj18.github.io.knowledge-hub.io',
         },
+        /*
+        extras: {
+          sidebarPath: './sidebars.js',
+          path:'extras',
+          outeBasePath: 'extras',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://marcoj18.github.io.knowledge-hub.io',
+        },*/
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -57,7 +67,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://marcoj18.github.io.knowledge-hub.io',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -74,12 +84,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Knowledge-HubImg.webp',
       navbar: {
-        title: 'My Site',
+        title: 'Database',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Brain logo',
+          src: 'img/brain.svg',
         },
         items: [
           {
@@ -88,9 +98,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/Extras/intro', label: 'Extras', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MarcoJ18/knowledge-hub.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -129,17 +139,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Extras',
+                to: '/docs/Extras/intro',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+                href: 'https://github.com/MarcoJ18/knowledge-hub.io',
+              }
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Knowledge Hub`,
       },
       prism: {
         theme: prismThemes.github,
