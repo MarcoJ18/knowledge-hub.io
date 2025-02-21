@@ -1,3 +1,29 @@
-site_name: My site
+site_name: KNOWLEDGE-HUB
+
 theme:
+#INIT 
   name: material
+#LANGUAGE
+  language: es
+
+#FONT LETTER
+  font:
+    tex: Roboto
+    code: Roboto Mono
+#COLOR PAGE
+  palette:
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+#LOGO
+  logo: assets/images/brain.png
+  favicon: images/brain.png
+
