@@ -5,12 +5,12 @@ date: 2025-02-26
 author: Adrián González
 ---
 
-# Error en plantilla
-## La página no se muestra en ancho completo y añade elementos no queridos a la página
+# Error en plantillaa
+Descripción: La página no se muestra en ancho completo y añade elementos no queridos a la página
 
-
-> [!CAUTION]
-> ![image](https://github.com/user-attachments/assets/90491d07-655a-4425-8978-a93549fc4d16)
+!!! failure
+    
+    ![image](https://github.com/user-attachments/assets/90491d07-655a-4425-8978-a93549fc4d16)
 
 ### Como se quiere ver
 ![image](https://github.com/user-attachments/assets/1e1ae5b6-d3ff-4ec9-b473-8697cb6fc9aa)
@@ -31,5 +31,6 @@ author: Adrián González
 - Con esto tendremosla página completa para el editor de elementor y no solo la parte interior
 
 ### Paso 2. Guardar.
+!!! success
 
-- Guardamos para aplicar los cambios y los veremos reflejados en la página
+    - Guardamos para aplicar los cambios y los veremos reflejados en la página
