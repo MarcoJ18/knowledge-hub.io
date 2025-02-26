@@ -2,6 +2,47 @@
 
 ## 📂 Estructura del Proyecto
 
+```
+├── 01_Guias (Documentación y tutoriales paso a paso)  
+│   ├── Proyecto_AguasFuerteventura  
+│   │ 
+│   ├── Tienda_Online  
+│   │  
+│   └── Web_Principal  
+│  
+│  
+├── 02_LiteSpeed (Configuración de LiteSpeed)  
+│  
+├── 03_Herramientas (Herramientas extras y funcionalidades opcionales)  
+│  
+│  
+├── 04_Trucos (Consejos y trucos útiles para mejorar el rendimiento y diseño)  
+│ 
+│  
+├── 05_Errores (Errores comunes en plataformas web y soluciones)  
+│   ├── Joomla  
+│   ├── Otras_Plataformas  
+│   ├── PrestaShop  
+│   └── WordPress  
+│       ├── Actualizaciones  
+│       ├── Divi  
+│       ├── Elementor  
+│       └── Plugins  
+│  
+├── 06_Justificación (Justificación)
+│  
+├── 07_Subsanación   
+│
+├── 08_Otros (Documentos adicionales o complementarios)  
+│  
+├── 09_Correos (Problemas relacionados con correos y su configuración)  
+│
+├── 10_Servidor (Configuraciones y errores del servidor)  
+│  
+└── Recursos (Archivos, imágenes y recursos utilizados en el proyecto)  
+
+```
+
 Esta estructura está diseñada para mantener una organización clara y eficiente de todos los archivos relacionados con el proyecto web. Cada carpeta tiene un propósito específico, y su contenido debe seguir la estructura establecida para facilitar la búsqueda y comprensión.
 
 ---
@@ -71,5 +112,4 @@ Aquí se almacenan todos los recursos que se usan en el proyecto, como imágenes
 3. **Consistencia**: Mantén la misma estructura de carpetas y nomenclatura en todos los archivos. Esto asegura que todos los archivos sean fáciles de encontrar.
 4. **Actualizaciones**: Cuando se realicen mejoras o cambios importantes, documenta siempre el cambio, los motivos y los resultados. 
 
----
 
