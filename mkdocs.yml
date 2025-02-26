@@ -27,8 +27,8 @@ theme:
     - content.action.edit
 
 #LOGO
-  logo: assets/images/brain.png
-  favicon: images/brain.png
+  #logo: assets/images/brain.png
+  #favicon: images/brain.png
 
 
 # Extensiones
@@ -37,6 +37,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+# Repo Github
+repo_url: https://github.com/MarcoJ18/knowledge-hub.io
+repo_name: MarcoJ18/knowledge-hub.io
 
 # Edit Page
 edit_uri: edit/main/docs/
