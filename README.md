@@ -83,6 +83,7 @@ Se encuentra la justificación del proyecto wew
 
 ### 📁 07_Subsanación
 Aquí se registran la información para realizar la subnación dependiendo del periodo del mismo
+
 ---
 
 ### 📁 08_Otros (Archivos adicionales)
