@@ -113,4 +113,8 @@ Aquí se almacenan todos los recursos que se usan en el proyecto, como imágenes
 3. **Consistencia**: Mantén la misma estructura de carpetas y nomenclatura en todos los archivos. Esto asegura que todos los archivos sean fáciles de encontrar.
 4. **Actualizaciones**: Cuando se realicen mejoras o cambios importantes, documenta siempre el cambio, los motivos y los resultados. 
 
+---
 
+## Task
+
+- [ ] Corregir documentación
