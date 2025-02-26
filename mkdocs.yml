@@ -27,3 +27,9 @@ theme:
   logo: assets/images/brain.png
   favicon: images/brain.png
 
+
+# Extensiones
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
