@@ -1,8 +1,11 @@
 # Crear un SLIDER para la página de inicio de la web
-> [!NOTE]
-> También se puede usar en otro lado de la web pero es recomendable en el Inicio
 
-#### Documentación
+!!! note
+
+      También se puede usar en otro lado de la web pero es recomendable en el Inicio
+
+### Documentación
+
 Tutorial de Youtube: [🔴🔴🔴](https://youtu.be/RxnnBYeceDM?si=0eIahohWAFFlJMr_)
 
 Página del código: [📄](https://ovdivi.com/como-crear-un-background-slideshow-con-efectos-de-animacion-y-transicion-en-divi-sin-plugins/)
@@ -10,9 +13,9 @@ Página del código: [📄](https://ovdivi.com/como-crear-un-background-slidesho
 
 ### Paso 1.
 
-- [ ] Colocar el elemento código en la sección donde queramos añadirlo
+- Colocar el elemento código en la sección donde queramos añadirlo
 
-- [ ] En la zona del código pegaremos lo siguiente:
+- En la zona del código pegaremos lo siguiente:
 
       <link rel="stylesheet" href="https://jaysalvat.github.io/vegas/releases/latest/vegas.min.css">
       <script src="https://jaysalvat.github.io/vegas/releases/latest/vegas.js"></script>
@@ -35,7 +38,7 @@ Página del código: [📄](https://ovdivi.com/como-crear-un-background-slidesho
       });
       </script>
 
-- [ ] Para cambiar las imágenes de que aparecen, simplemente cambiar la parte de
+- Para cambiar las imágenes de que aparecen, simplemente cambiar la parte de
       ```html
 
       slides: [
@@ -47,11 +50,12 @@ Página del código: [📄](https://ovdivi.com/como-crear-un-background-slidesho
 
 ### Paso 2.
 
-- [ ] Ahora añadimos el ID de Clase al bloque "ovSlideshow"
+- Ahora añadimos el ID de Clase al bloque "ovSlideshow"
       
-  ![image](https://github.com/user-attachments/assets/51bd1f22-999c-4e46-821f-291dd0b10222)
+  ![image](https://github.com/user-attachments/assets/97d1f78d-19da-4a38-ae83-9da254c8115c)
 
-- [ ] Guardamos y salimos del editor, se recargará la página y podremos ver el slider en funiconamiento
+- Guardamos y salimos del editor, se recargará la página y podremos ver el slider en funiconamiento
 
->[!NOTE]
-> ¿No ves bien las imágenes? Es probable que el tamaño del bloque sea demasiado pequeño, aumentale la altura a la que desees y las imágenes se redimencionarán
+!!! note
+
+      ¿No ves bien las imágenes? Es probable que el tamaño del bloque sea demasiado pequeño, aumentale la altura a la que desees y las imágenes se redimencionarán
