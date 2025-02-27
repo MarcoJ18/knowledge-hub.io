@@ -1,3 +1,8 @@
+---
+title: Error Web Mail
+
+---
+
 !!! note
 
     Sí, hay problemas al enviar o recibir email desde la web, tras la migración. 
