@@ -1,3 +1,10 @@
+---
+title: Slider Inicio
+description: Tutorial para crear un Slider en el inicio de la página
+date: 2025-02-27
+author: Adrián González
+---
+
 # Crear un SLIDER para la página de inicio de la web
 > [!NOTE]
 > También se puede usar en otro lado de la web pero es recomendable en el Inicio
