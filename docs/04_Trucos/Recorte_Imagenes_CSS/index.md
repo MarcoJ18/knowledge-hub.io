@@ -1,17 +1,29 @@
-# CROP IMAGES
+---
+title: Cortar Imágenes
+description: Tutorial sobre como cortar imágenes con CSS personalizado en Divi y Wordpress
+date: 2025-02-27
+author: Adrián González
+---
+# Cortat Imágenes
 
-> [!CAUTION]
-> En móvil se rompe bastante revisarlo bien o meterle !important a todo
+!!! warning
 
-## Añadir la clase al ccs
+    En móvil se rompe bastante revisarlo bien o meterle !important a todo
+
+### Paso 1. Añadir la clase al ccs
+
 La clase dependerá de la relación aspecto que queramos, pero siempre tendrá el formato
+
 #### pa-image-[primer aspect-ratio]-[segundo aspect-ratio]
 ##### Ejemplo -> Para ratio 16:9 -> pa-image-16-9 
-![image](https://github.com/user-attachments/assets/99ae4d6c-1444-4e91-b9c4-8410232146a6)
 
-## Añadir código a la imagen
+![image](https://github.com/user-attachments/assets/2370d003-c609-409e-aa5f-e5b9aeede262)
+
+### Paso 2. Añadir código a la imagen
+
 #### Añadir el código que queramos usar dependiendo del aspect-ratio que queramos en el apartado de css personalizado
-![image](https://github.com/user-attachments/assets/42aec466-0960-412f-9e4f-4c71efa02d54)
+
+![image](https://github.com/user-attachments/assets/5e9b32a0-646b-4e67-a14a-1663215d4e2a)
 
 
 ## Square 1:1 – 1 / 1 = 1.00 = 100%
@@ -32,7 +44,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/d0232069-fb36-49bd-82b6-0cbd09784b1d)
+![image](https://github.com/user-attachments/assets/b7e54dfd-cc2d-44f5-b19c-c50831bf7710)
 
 
 ## Landscape 16:9 – 9 / 16 = 0.5625 = 56.25%
@@ -53,7 +65,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
     object-fit: cover;
   }
 ```
-![image](https://github.com/user-attachments/assets/a8fb2d6e-475a-4bd1-8f5c-7bbe1cb570bb)
+![image](https://github.com/user-attachments/assets/f5807382-c952-4079-b9ee-ecf97edc105f)
 
 
 ## Landscape 4:3 – 3 / 4 = 0.75 = 75%
@@ -74,7 +86,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/4ae9f525-c518-4efc-9224-0dfe844b1bb2)
+![image](https://github.com/user-attachments/assets/b0b5835b-dd1e-4a9f-9ae9-278af92b20bc)
 
 
 ## Landscape 3:2 – 2 / 3 = 0.6667 = 66.67%
@@ -95,7 +107,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/5b84ea25-ec64-4687-a96e-9cbde6f00be3)
+![image](https://github.com/user-attachments/assets/d1ef914c-749b-4fb3-aaad-4570ad8091a6)
 
 
 ## Portrait 9:16 – 16 /9 = 1.7778 = 177.78%
@@ -116,7 +128,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/1a445083-b4eb-4155-8b7b-8afa6ead3786)
+![image](https://github.com/user-attachments/assets/5d1945e1-5190-43cd-a229-0cf594736d3f)
 
 
 ## Portrait 3:4 – 4 / 3 = 1.3334 = 133.34%
@@ -137,7 +149,7 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/ced2e9de-2e36-48d7-b495-dc44398b9497)
+![image](https://github.com/user-attachments/assets/6c4ad30b-7703-45a0-b235-775d4fa319bd)
 
 
 ## Portrait 2:3 – 3 / 2 = 1.5 = 150%
@@ -159,11 +171,16 @@ La clase dependerá de la relación aspecto que queramos, pero siempre tendrá e
   object-fit: cover;
 }
 ```
-![image](https://github.com/user-attachments/assets/1534f2b4-efe9-4ae3-85ad-70840f3d7b52)
+![image](https://github.com/user-attachments/assets/8ca18fad-3765-40db-8c9d-c3f89900f7c5)
 
 
-## Cuando no funcione en móvil, una opción un poco bruta pero efectiva es ponerle !important a todos los ajustes
-- Después de hacer varias pruebas nos dimos cuenta de que algo en Divi estropeaba la compatibilidad del código o lo  sobreescribía y no se aplica
+### Warning Cuando no funcione en móvil
+
+Una opción un poco bruta pero efectiva es ponerle !important a todos los ajustes
+
+!!! tip
+
+    Después de hacer varias pruebas nos dimos cuenta de que algo en Divi estropeaba la compatibilidad del código o lo  sobreescribía y no se aplica
 
 Ejemplo:
 
