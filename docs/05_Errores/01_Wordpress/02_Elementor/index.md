@@ -10,6 +10,7 @@ author: Adrián González
 !!! failure
     
     La página no se muestra en ancho completo y añade elementos no queridos a la página
+    
     ![image](https://github.com/user-attachments/assets/90491d07-655a-4425-8978-a93549fc4d16)
 
 ### Como se quiere ver
