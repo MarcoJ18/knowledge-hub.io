@@ -25,6 +25,7 @@ theme:
 #EDIT SETTINGS
   features:
     - content.action.edit
+    - content.code.copy
 
 #LOGO
   #logo: assets/images/brain.png
