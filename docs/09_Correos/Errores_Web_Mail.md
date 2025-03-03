@@ -20,7 +20,8 @@ title: Error Web Mail
 
 - Añadir lo correspondiente según la imagen y el correo del cliente:
 
-  ![image](https://github.com/user-attachments/assets/1d0051d7-895c-42a1-8e32-a91d4ca44a66)
+  ![image](https://github.com/user-attachments/assets/a978e353-1874-4d2b-b2cb-3fb6c49f84dd)
+
 
 - Añadir el servidor con el usuario y constraseña del correo:
    
