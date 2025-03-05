@@ -23,7 +23,8 @@ Página del código: [📄](https://ovdivi.com/como-crear-un-background-slidesho
 - Colocar el elemento código en la sección donde queramos añadirlo
 
 - En la zona del código pegaremos lo siguiente:
-
+      ```html
+  
       <link rel="stylesheet" href="https://jaysalvat.github.io/vegas/releases/latest/vegas.min.css">
       <script src="https://jaysalvat.github.io/vegas/releases/latest/vegas.js"></script>
       
@@ -44,6 +45,7 @@ Página del código: [📄](https://ovdivi.com/como-crear-un-background-slidesho
       });
       });
       </script>
+      ```
 
 - Para cambiar las imágenes de que aparecen, simplemente cambiar la parte de
       ```html
