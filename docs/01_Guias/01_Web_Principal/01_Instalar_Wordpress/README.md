@@ -1,31 +1,50 @@
-# Instalar Wordpress ![logotipo-de-wordpress](https://github.com/user-attachments/assets/33d7bd20-d348-4e66-9159-51425197803d)
+---
+title: Instalación de Wordpress
+description: Se detallan los pasos a seguir para la instalación de Wordpress.
+author: Adrián / Anna
+date: 18/03/2025
+---
+# Instalar Wordpress ![image](https://github.com/user-attachments/assets/6261e315-836b-4b45-8901-6df3fc237229)
 
 
 
+### Paso 1. CPanel
+- Accedemos al dominio del CPanel
+- Iremos a "Worpress Management"
 
-### Paso 1.
-- [ ] Accedemos al dominio del CPanel
-- [ ] Iremos a "Worpress Management"
+![image](https://github.com/user-attachments/assets/e7933849-0289-4859-b7e7-0dd61dcea831)
 
-![image](https://github.com/user-attachments/assets/37ae12df-51d8-4802-97fb-1b8629ccdee5)
 
-### Paso 2.
+### Paso 2. Instalación de Wordpress
 
-- [ ] Instalar Wordpress
-      - Saldrá la siguiente pantalla
+- Al clicar en instalar nos saldrá la siguiente pantalla
       
-![image](https://github.com/user-attachments/assets/ef971e6b-72c3-470a-82c6-2335ebfda0de)
+![image](https://github.com/user-attachments/assets/c1b2698d-9db9-40bc-b14b-efee9b924c98)
 
-- [ ] Rellenaremos con la información correspondiente
-      - Recordar que los campos "Conjunto de Plugins" y "Email" deben ser igual que en la imagen
 
-![image](https://github.com/user-attachments/assets/a860c680-e517-42e6-8895-e086c33e4196)
+- Rellenaremos con la información correspondiente
+  
+!!! note
+
+    Recordar que los campos "Conjunto de Plugins" y "Email" deben ser igual que en la imagen. En el apartado de usuario ponemos adminis.
+    
+      
+
+![image](https://github.com/user-attachments/assets/ac78a39c-6769-40a5-8400-d634c45e80cf)
+
 
 - Esperamos a que se complete la instalación
 
-  ![image](https://github.com/user-attachments/assets/89b6e0ca-1cf7-45dc-9b3a-29f8a3fb5c8d)
+![image](https://github.com/user-attachments/assets/1fd5b248-7b20-4d68-9b64-97e98398c1ff)
 
-> [!CAUTION]
-> Ahora saldrá un aviso de instalar más plugins, simplemente dale a "No, Gracias" y listo, tendremos el wordpress instalado.
 
-![image](https://github.com/user-attachments/assets/5ffee82d-61a7-42ab-b547-ed05665270fa)
+  !!! Warning
+
+    Recordar que los campos "Conjunto de Plugins" y "Email" deben ser igual que en la imagen. En el apartado de usuario ponemos amdinis.
+    
+
+
+![image](https://github.com/user-attachments/assets/4e28bb27-d027-4551-b8c1-85f5d32f69e6)
+
+
+
