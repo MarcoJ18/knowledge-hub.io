@@ -28,7 +28,7 @@ Listado de plugins más usados en Wordpress, tanto básicos como algunos especí
     <a href="https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es"> Extensión ↗️</a>
   </div>
   <div style="flex: 1; min-width: 200px; max-heigt: 200px text-align: right; padding: 50px 50px;">
-    <img src="../../images/wappanalizer.webp" alt="Imagen" style="max-width: 100%; height: auto;">
+    <img src="../../images/plugins_and_tools/wappanalizer.webp" alt="Imagen" style="max-width: 100%; height: auto;">
   </div>
 </div>
 
@@ -40,6 +40,6 @@ Listado de plugins más usados en Wordpress, tanto básicos como algunos especí
 
   </div>
   <div style="flex: 1; min-width: 200px; max-heigt: 200px text-align: right; padding: 50px 50px;">
-    <img src="../../images/squoosh.webp" alt="Imagen" style="max-width: 100%; height: auto;">
+    <img src="../../images/plugins_and_tools/squoosh.webp" alt="Imagen" style="max-width: 100%; height: auto;">
   </div>
 </div>
