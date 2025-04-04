@@ -20,8 +20,9 @@ Aquí es donde desde el equipo de desarrollo nos ponemos en contacto con el clie
 
 En este punto ya se puede crear la carpeta de cliente en el Drive compartido de la empresa (normalmente lo hace Marco). Dentor de la carpeta se deberá importar la plantilla de carpeta de Sitio Web o Comercio electrónico, dependiendo del bono que tenga del kit digital.
 
+<html>
 <img src="../../../images/make_a_website/plantilla.webp" alt="Imagen de como se ve la carpeta de plantilla web kit digital en Google Drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
-
+</html>
 !!! tip Necesario
     Llegados a este punto, la tarea de crear la página web debería estar creada en el Github de Marco con su plantilla correspondiente donde organizamos todo el contenido.
     <img src="../../../images/make_a_website/github.webp" alt="Imagen de como se ve el mural de tareas del proyecto de Github" style="display: block; margin: auto; max-width: 100%; height: auto;">
