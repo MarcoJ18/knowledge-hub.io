@@ -61,7 +61,7 @@ También compartiremos la carpeta "**Datos**" con el coreo personal del clente d
 Este paso se lo dejaremos a Cristian, ya que es el que tiene acceso a la cuenta de **FuerteHost** donde tenemos los dominios y reservará el dominio que haya elegido el cliente en la reunión.
 
 ### Instalar Wordpress desde Fuertehost
-Normalmente cristian será el mismo que instale el Wordpress desde el panel de control de FuerteHost, pero si no es así, se puede hacer desde el CPanel de la web. Para ello podemos mirar el tutorial de <a href="/docs/01_Guias/01_Web_Principal/01_Instalar_Wordpress/README.md"> **Instalar Wordpress**.</a>
+Normalmente cristian será el mismo que instale el Wordpress desde el panel de control de FuerteHost, pero si no es así, se puede hacer desde el CPanel de la web. Para ello podemos mirar el tutorial de <a href="/docs/01_Guias/01_Web_Principal/nstalar_Wordpress/README.md"> **Instalar Wordpress**.</a>
 
 ### Instalar y activar Divi
 Normalmente cuando se instala Wordpress, instalamos también un paquete creado por Ordenatech de Kit Digital donde ya viene instalado el tema de Divi y los plugins necesarios para empezar a trabajar.
@@ -134,25 +134,82 @@ Pero esto no es todo, deberemos acceder a **Ajustes** ➡️ "**Lectura**" y sel
 
 ### Footer
 
-Para añadir el footer, nos podemos guiar por la siguiente documentación: <a href="/docs/01_Guias/01_Web_Principal/03_Footer/README.md"> Añadir Footer</a>
+Para añadir el footer, nos podemos guiar por la siguiente documentación: <br><a href="/docs/01_Guias/01_Web_Principal/03_Footer/README.md"> Añadir Footer</a>
 
 
-- Añadir el footer.json
-    1. Descargar Footeer.js dle repositorio
-    2. Ir a theme Builder de divi
-    3. Clicar en la imagen de importar (ver abajo)
-    5. Importar desde archivo y se importará solo el footer
-    6. Guardar Cambios
-- Seleccionar la página de inicio como la que inicia el sitio
-    1. Apariencia -> Personalizar
-    2. Ajustes de página de inicio
-    3. Seleccionar una página estática
-    4. Y seleccionar como página de Inicio "Inicio"
-- Editar encabezado
-    1. Apariencia -> Personalizar
-    2. Cambiar encabezado a gusto
-- Empezar a editar con Divi
-      1. Elegir un diseño para empezar
+### Header
+El encabezado de Divi es un poco especialito, ya que no se puede editar como el resto de las páginas. 
+
+Para ello, deberemos ir a "**Apariencia**" ➡️ "**Personalizar**" ➡️ "**Encabezado y navegación**".
+
+<img src="../../../images/make_a_website/apariencia.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+
+### Editar con Divi
+Para editar con Divi, simplemente accedemos a la página que queremos editar y le damos a "**Activar el constructor Divi**".
+
+<img src="../../../images/make_a_website/editor.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Se nos abrirá la página con el overlay de edición de Divi, aquí ya podremos añadir bloes y demás que queramos para editar la página.
+
+Para saber como editar con Divi puedes hacer el curso que tiene Ordenatech en Udemy o ver algún tutorial en Youtube, como este:
+
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/B-8KGxBxXRY?si=UR75bd6Nf1Sh2VOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Importar template de Divi
+
+Normalmente las páginas no las empezaremos a desarrollar desde cero. Esperaremos a que el cliente elija la plantilla que quiera y a partir de ahí, la editaremos a su gusto.
+
+#### 🔴 Para Divi Express 
+
+Para Divi Express, iremos a "**Divi**" ➡️ "**Biblioteca Divi**" ➡️ "**Importar y exportar**".
+
+<img src="../../../images/make_a_website/biblioteca.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Aquí tendremos que elegir el archivo JSON que contenga la plantilla elegida por el cliente.
+
+<img src="../../../images/make_a_website/biblioteca-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Con eso ya tendremos importada la plantilla, ahora tendremos que añadirla a las paginas que queramos.
+Para ello, seleccionamos "**Editar con Divi**" en la página que queramos añadir la plantilla y le damos a "**Elegir diseño**".
+Y seleccionaremos la plantilla que hemos importado anteriormente.
+
+<img src="../../../images/make_a_website/importar.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+#### 🔴 Para Divi Layouts (Elegant Themes) 
+
+Vamos directamente al editor de Divi en la página que queramos añadir la plantilla y en el menú que nos sale le daremos a "**Elegir diseño**".
+
+<img src="../../../images/make_a_website/importar.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Dentro de ahí buscaremos el nombre de la plantilla que eligió el cliente y la seleccionamos.
+
+<img src="../../../images/make_a_website/importar-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Luego se nos abrirá la ventana del template y le daremos a "**Use this Layout**".
+
+<img src="../../../images/make_a_website/importar-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Con eso se importará automáticamente la plantilla y la podremos editar a nuestro gusto.
+
+### ReCaptcha v3
+Cada vez que añadamos un formulario a la web, deberemos añadir el reCaptcha v3 para evitar spam. Para ello, seguiremos los siguientes pasos:
+- Ir a la página de reCaptcha de Google: [Google reCaptcha](https://www.google.com/recaptcha/admin/create)
+    - Iniciar sesión con la cuenta de Google de becario.
+
+<img src="../../../images/make_a_website/recaptcha.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Rellenaremos los campos según la web que estemos haciendo. y una vez terminado, nos llevará a la página donde nos mostrará la clave pública y privada del reCaptcha para ese dominio.
+
+<img src="../../../images/make_a_website/recaptcha-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+Dejaremos esa página abierta ya que necesitaremos esas claves para añarilas a la web.
+
+Vamos a la página donde está el formulario y entramos en las opciones del mismo. Accederemos al apartado de "**Protección contra el Spam**". Como proveedor de servicio seleccionamos ReCaptcha y añadimos las claves que nos ha dado Google. Ponemos nombre para el perfil "Ordenatech"
+
+<img src="../../../images/make_a_website/recaptcha-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+
+!!! error IMPORTANTE
 
 - Para formularios añadir reCaptcha v3
       1. buscarlo en google
