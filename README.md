@@ -3,13 +3,18 @@
 ## 📂 Estructura del Proyecto
 
 ```
-├── 01_Guias (Documentación y tutoriales paso a paso)  
-│   ├── Proyecto_AguasFuerteventura  
-│   │ 
-│   ├── Tienda_Online  
-│   │  
-│   └── Web_Principal  
+├── 00_Plugins_y_Herramientas
+│   ├── Listado de Herramientas
+│   ├── Listado de Plugins
 │  
+├── 01_Guias (Documentación y tutoriales paso a paso)  
+│   ├── 01_Web_Principal  
+│   │ 
+│   ├── 02_Tienda_Online  
+│   │  
+│   ├── 03_Proyecto_AguasFuerteventura 
+│   │  
+│   └── 04_Prestashop
 │  
 ├── 02_LiteSpeed (Configuración de LiteSpeed)  
 │  
@@ -47,12 +52,17 @@ Esta estructura está diseñada para mantener una organización clara y eficient
 
 ---
 
+### 📁 00_Plugins_y_Herramientas
+Recopilación de las herramientas y plugins que más usamos para el desarrollo web
+
+---
+
 ### 📁 01_Guias (Documentación y Tutoriales)
 Aquí se almacenan los tutoriales y guías de cómo realizar tareas o configuraciones en las diferentes plataformas o proyectos.
 
-- **Proyecto_AguasFuerteventura**: Documentación sobre el proyecto web específico para Aguas Fuerteventura.
-- **Tienda_Online**: Guías relacionadas con la creación o configuración de una tienda online, como la integración de sistemas de pago (TPV).
 - **Web_Principal**: Guías de configuración básica de la web principal, incluyendo aspectos como la instalación de WordPress y la configuración de reCAPTCHA.
+- **Tienda_Online**: Guías relacionadas con la creación o configuración de una tienda online, como la integración de sistemas de pago (TPV).
+- **Proyecto_AguasFuerteventura**: Documentación sobre el proyecto web específico para Aguas Fuerteventura.
 
 ---
 
