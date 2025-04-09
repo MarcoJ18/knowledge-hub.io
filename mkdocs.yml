@@ -38,6 +38,14 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 
 # Repo Github
 repo_url: https://github.com/MarcoJ18/knowledge-hub.io
@@ -45,3 +53,9 @@ repo_name: MarcoJ18/knowledge-hub.io
 
 # Edit Page
 edit_uri: edit/main/docs/
+
+
+#Extra css
+
+extra_css:
+  - stylesheets/extra.css
