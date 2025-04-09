@@ -5,7 +5,8 @@ theme:
   name: material
 #LANGUAGE
   language: es
-
+## STYLE
+  custom_dir: extra_css
 #FONT LETTER
   font:
     tex: Roboto
@@ -25,7 +26,7 @@ theme:
 #EDIT SETTINGS
   features:
     - content.action.edit
-    - content.code.copy
+    - content.code.copy 
 
 #LOGO
   #logo: assets/images/brain.png
