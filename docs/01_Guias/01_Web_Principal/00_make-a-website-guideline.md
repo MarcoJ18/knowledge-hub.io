@@ -1,5 +1,5 @@
 ---
-title: Guía para crear una web de cero
+title: Web desde 0
 description: Guía para crear una web de cero con todos los pasos necesarios para crear una web de kit digital (o no) desde cero.
 author: Adrián
 date: 04/04/2025
@@ -61,17 +61,22 @@ También compartiremos la carpeta "**Datos**" con el coreo personal del clente d
 Este paso será gestionado por Cristian, quien tiene acceso a la cuenta de FuerteHost, la plataforma donde se administran los dominios. Cristian se encargará de reservar el dominio seleccionado por el cliente durante la reunión, asegurando que quede registrado correctamente.
 
 ### Instalar Wordpress desde Fuertehost
-Normalmente, Cristian será el encargado de instalar WordPress directamente desde el panel de control de FuerteHost, utilizando las herramientas disponibles para simplificar el proceso. Sin embargo, si no puede realizar esta tarea, la instalación también se puede llevar a cabo desde el cPanel del sitio web. Para ello podemos mirar el tutorial de <a href="/01_Guias/01_Web_Principal/install_wordpress/"> **Instalar Wordpress**.</a>
+Normalmente, Cristian será el encargado de instalar WordPress directamente desde el panel de control de FuerteHost, utilizando las herramientas disponibles para simplificar el proceso. Sin embargo, si no puede realizar esta tarea, la instalación también se puede llevar a cabo desde el cPanel del sitio web. Para ello podemos mirar el tutorial de <a href="/01_Guias/01_Web_Principal/01_install_wordpress/"> **Instalar Wordpress**.</a>
 
 ### Instalar y activar Divi
 Al instalar WordPress, habitualmente se utiliza un paquete preconfigurado desarrollado por Ordenatech para el programa Kit Digital. Este paquete incluye el tema Divi y los plugins esenciales necesarios para comenzar a trabajar en el proyecto de manera eficiente.
 
 Una vez finalizada la instalación, se notificará a Marco para que envíe un ticket al soporte técnico de Sered solicitando la activación de Divi. Este proceso de activación puede tardar desde unos minutos hasta varias horas, dependiendo de los tiempos de respuesta del proveedor.
 
+### HTTPS
+Hay veces que el certificado SSL no funciona del todo bien y la página estará en HTTP en vez de HTTPS. Esto provocará que no podamos ver la web en modo incógnito (muy útil para poder ver la página sin caché). Para arrelgar esto deberemos forzar el HTTPS.
+
+Sigue la siguiente guía: <a href="/01_Guias/01_Web_Principal/02_forzar_https/">**Forzar HTTPS**</a>
+
 ## Fase 2: Desarrollo de la web
 ### Crear las cuentas de correo necesarias desde el CPanel
 
-Para crear cuentas de correo, ver el correo creado en dominio o añadir reenviadores, consulta el siguiente documento: <a href="/01_Guias/01_Web_Principal/cuentas_de_correo"> **Creación de correos.**</a>
+Para crear cuentas de correo, ver el correo creado en dominio o añadir reenviadores, consulta el siguiente documento: <a href="/01_Guias/01_Web_Principal/03_cuentas_de_correo"> **Creación de correos.**</a>
 Redirección al tutorial
 
 ### Revisar plugins
@@ -257,7 +262,7 @@ Para la traducción de la web, utilizaremos el plugin GTranslate. Este plugin pe
 
 En caso de que el cliente quiera añadir los idiomas de forma manual, usaremos otro plugin distinto.
 
-Para añadir los idiomas seugiremos el siguiente tutorial: <a href="/01_Guias/01_Web_Principal/add_languages/">**Tutorial Idiomas**</a>
+Para añadir los idiomas seugiremos el siguiente tutorial: <a href="/01_Guias/01_Web_Principal/04_add_languages/">**Tutorial Idiomas**</a>
 
 ## Fase 3: Indexación y justificación
 
@@ -269,7 +274,7 @@ Nos encontraremos con casos en los que el cliente ua ha registrado su negocio en
 
 En caso de que no la tenga registrada, es necesario que la registremos nosotros.
 
-Accederemos al siguiente link: [My Business](https://business.google.com/)
+Accederemos al siguiente link: [Google My Business](https://business.google.com/)
 
 Ahí nos registramos con la cuenta de becario si no está registrada y añadiremos una nueva empresa. Seguimos los pasos añadiendo la información que nos solicitan y cuando terminemos la empresa quedará registrada en Google My Business.
 
@@ -284,7 +289,7 @@ Google Search Console es una herramienta gratuita de Google que permite a los pr
 
 Básicamente, que si no registramos la empresa aquí, no aparecerá en Google. Por lo que es necesario que lo hagamos para que el cliente pueda ver su página web desde el buscador (sino, se van a quejar).
 
-Accederemos al siguiente link: [Search Console](https://search.google.com/)
+Accederemos al siguiente link: [Google Search Console](https://www.google.com/webmasters/tools/home?utm_source=about.google&utm_medium=referral&utm_campaign=productslist)
 
 Y nos registraremos si la cuenta de usuario no está registrada. Una vez dentro, le daremos a "**Añadir propiedad**" y añadiremos el dominio del cliente.
 
@@ -309,7 +314,7 @@ Una vez guardado, volveremos a la pestaña de Google Search Console y pulsamos e
 
 Para añadi rla página al buscador de Bing será similar a Google Search Console, pero en este caso podemos hacerlo de forma más sencilla, ya que Bing nos permite importar la verificación desde Search Console directamente.
 
-Accedemos a [Bing webmaster Tools](https://www.bing.com/webmasters/about)
+Accedemos a [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 Entramos con la cuenta que usamos en Search Console y al darle a añadir propiedad, nos dará la opción de importar la verificación desde Google Search Console. 
 
@@ -338,7 +343,7 @@ Para ello accedemos a la Web de [**Cylex**](https://www.cylex.es/), nos registra
     Es posible que no nos deje registrar la web, si nos sale lo siguiente no podremos hacerlo, contactar con Marco.
     <img src="../../../images/make_a_website/cylex-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
 
-Una vez terminemos el registros de la empresa, inmediatamente lo tendremos en cylex y firmania. encuentre abierto suele tardar entre unos minutos y unas cuantas horas (a veces hasta 24). Tenemos la teoría de que no aparece en encuentre abierto hasta que el horario del local esté abierto.
+Una vez terminemos el registros de la empresa, inmediatamente lo tendremos en cylex y firmania. encuentre abierto suele tardar entre unos minutos y unas cuantas horas (a veces hasta 24h). Tenemos la teoría de que no aparece en encuentre abierto hasta que el horario del local esté abierto.
 
 Para ver los perfiles de cada uno de ellos, dentro del panel de control de la empresa, accederemos al botón "**Ver perfil público**" y aparecerán los links en el selector.
 
@@ -355,7 +360,7 @@ En el panel de control de la empresa nos aparecerá un apartado para subir el lo
 
 Al final del desarrollo de una Web de Kit Digital, deberemos hacer la justificación del bono.
 
-Para ello vamos a seguir el siguiente tutorial: <a href="">Guía Justificación</a>
+Para ello vamos a seguir el siguiente tutorial: <a href="\07_Justificación\sitioweb">**Guía Justificación**</a>
 
 
 ### Final
