@@ -1,3 +1,17 @@
+/* ESTILOS GENERALES */
+
+/* Títulos en Negrita*/
+.md-typeset h1 {
+  font-weight: 500;
+}
+
+
+/* FIN DE ESTILOS GENERALES */
+
+
+
+
+/* Corazoncito */
 @keyframes heart {
     0%, 40%, 80%, 100% {
       transform: scale(1);
@@ -22,5 +36,78 @@
   
   .metadata span {
     margin-right: 1rem;
+  }
+  
+
+  /* Stripe */
+  .custom-intro {
+    background: linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%);
+    padding: 18px 25px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    margin-bottom: 24px;
+    color: #2c3e50;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+  }
+  
+  .custom-alert, .custom-warning {
+    background: #fff3cd;
+    color: #856404;
+    border-left: 6px solid #ffe066;
+    padding: 12px 18px;
+    border-radius: 6px;
+    margin: 18px 0;
+    font-weight: 500;
+  }
+  
+  .custom-warning {
+    background: #f8d7da;
+    color: #721c24;
+    border-left: 6px solid #f5c6cb;
+  }
+  
+  .custom-note {
+    background: #e2f0d9;
+    color: #27632a;
+    border-left: 6px solid #81c784;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin: 16px 0;
+    font-size: 0.98em;
+  }
+  
+  .custom-highlight {
+    background: #e3ecfc;
+    color: #1b4f72;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .custom-button {
+    background: #5dade2;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 0 2px;
+    font-size: 0.97em;
+    box-shadow: 0 1px 3px rgba(52, 152, 219, 0.10);
+  }
+  
+  .custom-img {
+    display: block;
+    margin: 18px auto 24px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+    max-width: 100%;
+  }
+  
+  .custom-subtitle {
+    color: #2471a3;
+    font-weight: 700;
+    font-size: 1.07em;
+    margin-top: 18px;
+    display: inline-block;
   }
   

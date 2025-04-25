@@ -5,7 +5,7 @@ tags:
   - Elementor
   - CSS
 author: "Adrián González"
-date: "2025-04-25"
+date: "25 Abril 2025"
 ---
 
 <div class="metadata" style="font-size: 0.9em; color: #555; margin-bottom: 0.5rem; line-height: 1.4;">
