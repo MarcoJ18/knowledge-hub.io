@@ -9,3 +9,18 @@
   .heart {
     animation: heart 1000ms infinite;
   }
+
+
+  /* Código de estilos para los metadatos*/
+  
+  .metadata {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+  }
+  
+  .metadata span {
+    margin-right: 1rem;
+  }
+  
