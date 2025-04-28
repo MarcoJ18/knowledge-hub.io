@@ -26,5 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
-      - run: mkdocs-macros-plugin
+      - run: pip install mkdocs-macros-plugin
       - run: mkdocs gh-deploy --force
