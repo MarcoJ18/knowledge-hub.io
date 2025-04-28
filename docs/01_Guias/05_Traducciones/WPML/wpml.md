@@ -17,9 +17,7 @@ date: "11 Abril 2025"
 # 🌍{{ page.meta.title }}
 
 {{ page.meta.description }}
- 
 
-> 
 
 ---
 
