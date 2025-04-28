@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## 🎨 Añadir CSS Personalizado 
 
-Ahora vamos con la parte del formateo, debemos eliminar todos el contenido que no nos sea necesario y formatearlo correctamente para que la salida de la impresión sea la correcta
+Ahora vamos con la parte del formateo, debemos eliminar todos el contenido que no nos sea necesario y formatearlo correctamente para que la salida de la impresión sea la correcta.
 
 <img src="../../../images/imprimir-web/image2.webp" alt="Imagen del editor de Betheme mostrando como añadir un botón" style="display: block; margin: auto; max-width: 100%; height: auto;">
 
