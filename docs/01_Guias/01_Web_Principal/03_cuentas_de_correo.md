@@ -1,11 +1,22 @@
---- 
-title: Crear cuentas de correo para el dominio del cliente
-description: Crear cuentas de correo para el dominio del cliente y que se use como correo corporativo y redireccionar a la cuenta de correo del cliente.
-author: Guillermo
-date: 04/04/2025
+---
+title: "Crear cuentas de correo para el dominio"
+description: "Crear cuentas de correo para el dominio del cliente y que se use como correo corporativo y redireccionar a la cuenta de correo del cliente."
+tags:
+  - Mail
+  - CPanel
+author: "Guillermo Rodríguez"
+date: "02 Abril 2025"
 ---
 
-# Crear cuentas de correo para el dominio
+<div class="metadata" style="font-size: 0.9em; color: #555; margin-bottom: 0.5rem; line-height: 1.4;">
+  <span><strong>Autor:</strong> {{ page.meta.author }}</span> &nbsp;|&nbsp;
+  <span><strong>Fecha:</strong> {{ page.meta.date }}</span> &nbsp;|&nbsp;
+  <span><strong>Etiquetas:</strong> {{ page.meta.tags | join(", ") }}</span>
+</div>
+
+# {{ page.meta.title }}
+
+{{ page.meta.description }}
 
 ### Crear correo
 Para crear una cuenta tendremos que acceder al apartado de correos del CPanel. En el apartado "Tools" clicaremos y se nos abrirán las principales herramientas del CPanel.
