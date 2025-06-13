@@ -1,0 +1,3794 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Guía para crear una web de cero con todos los pasos necesarios para crear una web de kit digital (o no) desde cero.">
+      
+      
+        <meta name="author" content="Adrián">
+      
+      
+      
+        <link rel="prev" href="../../../00_Plugins_y_Herramientas/plugins/">
+      
+      
+        <link rel="next" href="../01_install_wordpress/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Web desde 0 - DOCUMENTACIÓN</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pasos-para-crear-una-web-de-kit-digital-desde-cero" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../../.." title="DOCUMENTACIÓN" class="md-header__button md-logo" aria-label="DOCUMENTACIÓN" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DOCUMENTACIÓN
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Web desde 0
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/MarcoJ18/knowledge-hub.io" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    MarcoJ18/knowledge-hub.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="DOCUMENTACIÓN" class="md-nav__button md-logo" aria-label="DOCUMENTACIÓN" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    DOCUMENTACIÓN
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/MarcoJ18/knowledge-hub.io" title="Ir al repositorio" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    MarcoJ18/knowledge-hub.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Como hacer documentación
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    00 Plugins y Herramientas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            00 Plugins y Herramientas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Plugins_y_Herramientas/herramientas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Listado de Herramientas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../00_Plugins_y_Herramientas/plugins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Listado de Plugins
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    01 Guias
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            01 Guias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    01 Web Principal
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            01 Web Principal
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Web desde 0
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Web desde 0
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inicio-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inicio del proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-inicio-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1: Inicio del proyecto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 1: Inicio del proyecto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concretar-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concretar reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primera-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primera reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-1o-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post 1º reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conseguir-el-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conseguir el dominio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalar-wordpress-desde-fuertehost" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar Wordpress desde Fuertehost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalar-y-activar-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar y activar Divi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTPS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-desarrollo-de-la-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2: Desarrollo de la web
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 2: Desarrollo de la web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-las-cuentas-de-correo-necesarias-desde-el-cpanel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear las cuentas de correo necesarias desde el CPanel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar plugins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crear-paginas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear páginas principales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Menú
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-permanentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enlaces permanentes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#footer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Footer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    <span class="md-ellipsis">
+      Header
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar-con-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editar con Divi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importar-template-de-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importar template de Divi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importar template de Divi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#para-divi-express" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔴 Para Divi Express
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-divi-layouts-elegant-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔴 Para Divi Layouts (Elegant Themes)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recaptcha-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ReCaptcha v3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seo" class="md-nav__link">
+    <span class="md-ellipsis">
+      SEO
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idiomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idiomas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-indexacion-y-justificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3: Indexación y justificación
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 3: Indexación y justificación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-my-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google My Business
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-search-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google Search Console
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cylex-firmania-encuentre-abierto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cylex | Firmania | Encuentre Abierto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cylex | Firmania | Encuentre Abierto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-imagen-de-perfil-en-cylex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar imagen de perfil en Cylex
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#justificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justificación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01_install_wordpress/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalación de Wordpress
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_forzar_https/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Forzar HTTPS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03_cuentas_de_correo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Crear cuentas de correo para el dominio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04_add_languages/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Añadir idiomas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1_6" id="__nav_3_1_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Footer
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            Footer
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Footer/footer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Añadir Footer estándar para Kit Digital con Divi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    02 Tienda Online
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            02 Tienda Online
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    01 Instalar TPV
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            01 Instalar TPV
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02_Tienda_Online/01_Instalar_TPV/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalar TPV como método de pago para Comercio electrónico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    03 Proyecto AguasFuerteventura
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            03 Proyecto AguasFuerteventura
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    01 Tablón de anuncio
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            01 Tablón de anuncio
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03_Proyecto_AguasFuerteventura/01_Tabl%C3%B3n_de_anuncio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Añadir publicaciones en AguasFuerteventura
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    04 Prestashop
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            04 Prestashop
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04_Prestashop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Error instalación Prestashop
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    05 Traducciones
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            05 Traducciones
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    WPML
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            WPML
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05_Traducciones/WPML/wpml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Implementar WPML en WordPress
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    06 SEO
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            06 SEO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06_SEO/buenas-practicas-SEO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Guía para un buen SEO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    02 LiteSpeed
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            02 LiteSpeed
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../02_LiteSpeed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuración de LiteSpeedCache
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    03 Herramientas
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            03 Herramientas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Divi Express
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            Divi Express
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_Herramientas/Divi%20Express/descargar-plantilla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Descargar Plantillas Divi Express
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Whatsapp Botón
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            Whatsapp Botón
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../03_Herramientas/Whatsapp_Bot%C3%B3n/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Añadir Botón de Whatsapp a Wordpress
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    04 Trucos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            04 Trucos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/corregir-gtranslate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Corregir los textos del menú al usar GTranslate (versión gratuita)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/cut-css/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Recorte de Imágenes por CSS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/eliminar-cookies/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eliminar Menú flotante CookieYes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/eliminar-monster/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eliminar Banner Monster Insight
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/imprimir-pagina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Botón Imprimir Página
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/svg/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Como añadir que wordpress permita subir archivos SVG
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sidebar
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sidebar
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/Sidebar/side-bar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Eliminar Barra Lateral Divi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../04_Trucos/Sidebar/sticky-sidebar-tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sidebar Desplazable para Índices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    05 Errores
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            05 Errores
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1" id="__nav_7_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    01 Wordpress
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1">
+            <span class="md-nav__icon md-icon"></span>
+            01 Wordpress
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_7_1_1" id="__nav_7_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    02 Elementor
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            02 Elementor
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../05_Errores/01_Wordpress/02_Elementor/plantilla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Error en plantilla
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    07 Justificación
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            07 Justificación
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/comercio_electronico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Justificación de Comercio Electrónico
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/sitioweb/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Justificación de Sitio Web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Subsanación
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            Subsanación
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1" id="__nav_8_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Fase 2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Fase 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/sitio_web/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Subsanación Sitio Web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_2" id="__nav_8_3_1_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Comercio
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_3_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Comercio
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_2_1" id="__nav_8_3_1_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    34 BBRR
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_8_3_1_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            34 BBRR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/Comercio/34_BBRR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_2_2" id="__nav_8_3_1_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SEO
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_8_3_1_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            SEO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/Comercio/SEO/seo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Seo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/Comercio/SEO/seoV2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pasos para realizar la subsanación Fase 2 versión 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_3" id="__nav_8_3_1_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Sitio Web
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_3_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Sitio Web
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_3_1" id="__nav_8_3_1_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    34 BBRR
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_8_3_1_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            34 BBRR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/Sitio_Web/34_BBRR/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Index
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3_1_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_8_3_1_3_2" id="__nav_8_3_1_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    SEO
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="5" aria-labelledby="__nav_8_3_1_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3_1_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            SEO
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../07_Justificaci%C3%B3n/Subsanaci%C3%B3n/Fase%202/Sitio_Web/SEO/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pasos para realizar la subsanación Fase 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    08 Otros
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            08 Otros
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    How to clean PC
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
+            <span class="md-nav__icon md-icon"></span>
+            How to clean PC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../08_Otros/How%20to%20clean%20PC/clean-pc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How To Clean PC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    09 Correos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            09 Correos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../09_Correos/Errores_Web_Mail/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Error Web Mail
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../09_Correos/Mantenimiento_Correos_Clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mantenimiento_Correos_Clientes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../09_Correos/Segunda_reunion_clientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Correo de ejemplo Segunda Reunión CLientes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    10 Pagos
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            10 Pagos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_11_1" id="__nav_11_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Stripe
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11_1">
+            <span class="md-nav__icon md-icon"></span>
+            Stripe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../10_Pagos/Stripe/implementacion-link-stripe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Stripe con Links (sin plugin)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../10_Pagos/Stripe/tutorial-stripe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Instalar y Configurar Stripe en WordPress
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#inicio-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Inicio del proyecto
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-1-inicio-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 1: Inicio del proyecto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 1: Inicio del proyecto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#concretar-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concretar reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#primera-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Primera reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-1o-reunion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Post 1º reunión
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conseguir-el-dominio" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conseguir el dominio
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalar-wordpress-desde-fuertehost" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar Wordpress desde Fuertehost
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalar-y-activar-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Instalar y activar Divi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https" class="md-nav__link">
+    <span class="md-ellipsis">
+      HTTPS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-2-desarrollo-de-la-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 2: Desarrollo de la web
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 2: Desarrollo de la web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crear-las-cuentas-de-correo-necesarias-desde-el-cpanel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear las cuentas de correo necesarias desde el CPanel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#revisar-plugins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Revisar plugins
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crear-paginas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Crear páginas principales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Menú
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-permanentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enlaces permanentes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#footer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Footer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    <span class="md-ellipsis">
+      Header
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar-con-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editar con Divi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importar-template-de-divi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Importar template de Divi
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Importar template de Divi">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#para-divi-express" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔴 Para Divi Express
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#para-divi-layouts-elegant-themes" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔴 Para Divi Layouts (Elegant Themes)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recaptcha-v3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ReCaptcha v3
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#seo" class="md-nav__link">
+    <span class="md-ellipsis">
+      SEO
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#idiomas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Idiomas
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fase-3-indexacion-y-justificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fase 3: Indexación y justificación
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fase 3: Indexación y justificación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-my-business" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google My Business
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-search-console" class="md-nav__link">
+    <span class="md-ellipsis">
+      Google Search Console
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cylex-firmania-encuentre-abierto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cylex | Firmania | Encuentre Abierto
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cylex | Firmania | Encuentre Abierto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cambiar-imagen-de-perfil-en-cylex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambiar imagen de perfil en Cylex
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#justificacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Justificación
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#final" class="md-nav__link">
+    <span class="md-ellipsis">
+      Final
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/MarcoJ18/knowledge-hub.io/edit/main/docs/01_Guias/01_Web_Principal/00_make-a-website-guideline.md" title="Editar esta página" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="pasos-para-crear-una-web-de-kit-digital-desde-cero">Pasos para crear una web de kit digital desde cero.</h1>
+<h2 id="inicio-del-proyecto">Inicio del proyecto</h2>
+<p>En la etapa inicial del proyecto, Cristian será el responsable de establecer comunicación directa con el cliente para comprender sus necesidades y definir los términos del acuerdo preliminar. Este acuerdo puede estar relacionado con el programa Kit Digital o con la creación de una página web personalizada.</p>
+<p>Tras alcanzar un entendimiento mutuo y acordar los términos, se enviará al cliente una propuesta detallada del presupuesto. Una vez que este documento sea revisado, aprobado y firmado por el cliente, se procederá a dar inicio al proceso de planificación y desarrollo de la página web.</p>
+<h2 id="fase-1-inicio-del-proyecto">Fase 1: Inicio del proyecto</h2>
+<h3 id="concretar-reunion">Concretar reunión</h3>
+<p>En esta fase, el equipo de desarrollo se pondrá en contacto con el cliente, ya sea por correo electrónico o mediante una llamada telefónica, con el objetivo de coordinar una reunión en línea a través de Google Meet.</p>
+<p>Paralelamente, se procederá a la creación de la carpeta del cliente en el Drive compartido de la empresa, tarea que habitualmente realiza Marco. Dentro de dicha carpeta, se deberá importar la plantilla correspondiente, ya sea para un Sitio Web o para un Comercio Electrónico, según el tipo de bono asignado dentro del programa Kit Digital.</p>
+<html>
+<img src="../../../images/make_a_website/plantilla.webp" alt="Imagen de como se ve la carpeta de plantilla web kit digital en Google Drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+</html>
+<div class="admonition tip necesario">
+<p class="admonition-title">Tip</p>
+<p>Llegados a este punto, la tarea de crear la página web debería estar creada en el Github de Marco con su plantilla correspondiente donde organizamos todo el contenido.
+<img src="../../../images/make_a_website/github.webp" alt="Imagen de como se ve el mural de tareas del proyecto de Github" style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+</div>
+<h3 id="primera-reunion">Primera reunión</h3>
+<p>Llegado el día de la reunión, usaremos la plantilla de "<strong>1º Reunión</strong>" para tener una guía de todos los datos que tenemos que recoger del cliente para poder crear la web sin problemas. </p>
+<p><img src="../../../images/make_a_website/primera_reunion.webp" alt="Imagen de la selección del archivo de Google Drive para la primera reunión." style="display: block; margin: auto; max-width: 100%; height: auto;">
+<img src="../../../images/make_a_website/documento_primera_reunion.webp" alt="Imagen de como se ve el documento de primera reunión por dentro." style="display: block; margin: auto; max-width: 100%; height: auto;">
+<br>
+Durante esta reunión, será fundamental que el cliente elija el dominio que desea utilizar para su página web, ya que esta decisión será definitiva y no podrá modificarse posteriormente.</p>
+<p>Para garantizar que el dominio seleccionado esté disponible, se utilizará la herramienta de verificación en línea proporcionada por <a href="https://www.dominios.es/es">dominios.es</a>, donde se puede comprobar si el nombre elegido está libre o ya está en uso.</p>
+<p><img src="../../../images/make_a_website/dominios_es.webp" alt="Imagen de la verificación de dominio realizada en dominios.es." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<div class="admonition tip importante">
+<p class="admonition-title">Tip</p>
+<p>Debemos enfocarnos sobre todo en que el cliente nos cuente a que se dedica y sus servicios, para saber como enfocar bien el diseño de la web.</p>
+</div>
+<h3 id="post-1o-reunion">Post 1º reunión</h3>
+<p>Una vez terminada la reunión, la persona asignada a crear la web buscará plantillas que concuerden con el sector del cliente, usualmente 4-5 que puedan resultar interesantes. </p>
+<p>Las páginas que solemos usar para buscarlas son:</p>
+<ul>
+<li>Para el Tema de Divi:
+   <br>🔴 <a href="https://www.elegantthemes.com/layouts/"><strong>Elegant Themes - Divi Layouts</strong></a>
+   <br>🔴 <a href="https://divi.express/"><strong>Divi Express</strong></a></li>
+</ul>
+<p>También compartiremos la carpeta "<strong>Datos</strong>" con el coreo personal del clente donde nos compartirá toda la información necesaria para crear la página web.</p>
+<p><img src="../../../images/make_a_website/datos.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<h3 id="conseguir-el-dominio">Conseguir  el dominio</h3>
+<p>Este paso será gestionado por Cristian, quien tiene acceso a la cuenta de FuerteHost, la plataforma donde se administran los dominios. Cristian se encargará de reservar el dominio seleccionado por el cliente durante la reunión, asegurando que quede registrado correctamente.</p>
+<h3 id="instalar-wordpress-desde-fuertehost">Instalar Wordpress desde Fuertehost</h3>
+<p>Normalmente, Cristian será el encargado de instalar WordPress directamente desde el panel de control de FuerteHost, utilizando las herramientas disponibles para simplificar el proceso. Sin embargo, si no puede realizar esta tarea, la instalación también se puede llevar a cabo desde el cPanel del sitio web. Para ello podemos mirar el tutorial de <a href="/01_Guias/01_Web_Principal/01_install_wordpress/"> <strong>Instalar Wordpress</strong>.</a></p>
+<h3 id="instalar-y-activar-divi">Instalar y activar Divi</h3>
+<p>Al instalar WordPress, habitualmente se utiliza un paquete preconfigurado desarrollado por Ordenatech para el programa Kit Digital. Este paquete incluye el tema Divi y los plugins esenciales necesarios para comenzar a trabajar en el proyecto de manera eficiente.</p>
+<p>Una vez finalizada la instalación, se notificará a Marco para que envíe un ticket al soporte técnico de Sered solicitando la activación de Divi. Este proceso de activación puede tardar desde unos minutos hasta varias horas, dependiendo de los tiempos de respuesta del proveedor.</p>
+<h3 id="https">HTTPS</h3>
+<p>Hay veces que el certificado SSL no funciona del todo bien y la página estará en HTTP en vez de HTTPS. Esto provocará que no podamos ver la web en modo incógnito (muy útil para poder ver la página sin caché). Para arrelgar esto deberemos forzar el HTTPS.</p>
+<p>Sigue la siguiente guía: <a href="/01_Guias/01_Web_Principal/02_forzar_https/"><strong>Forzar HTTPS</strong></a></p>
+<h2 id="fase-2-desarrollo-de-la-web">Fase 2: Desarrollo de la web</h2>
+<h3 id="crear-las-cuentas-de-correo-necesarias-desde-el-cpanel">Crear las cuentas de correo necesarias desde el CPanel</h3>
+<p>Para crear cuentas de correo, ver el correo creado en dominio o añadir reenviadores, consulta el siguiente documento: <a href="/01_Guias/01_Web_Principal/03_cuentas_de_correo"> <strong>Creación de correos.</strong></a>
+Redirección al tutorial</p>
+<h3 id="revisar-plugins">Revisar plugins</h3>
+<p>Antes de iniciar el desarrollo de la web, es crucial realizar una revisión de los plugins instalados en el paquete de Kit Digital. Este paso consiste en comprobar que todos los plugins estén actualizados a su última versión y que no presenten conflictos entre ellos.</p>
+<p>Para llevar a cabo esta verificación, se debe acceder al "<strong>Escritorio</strong>" de WordPress, dirigirse a la pestaña de "<strong>Plugins</strong>" y revisar el estado de cada uno. Si algún plugin requiere actualización, se procederá a actualizarlo desde esta misma sección, asegurando así un entorno estable y funcional para el desarrollo del proyecto.</p>
+<p><img src="../../../images/make_a_website/plugins.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+<br>
+Si algún plugin necesita ser actualizado, WordPress lo indicará automáticamente mediante una notificación visual en forma de un círculo rojo. Este círculo, ubicado junto al apartado de Plugins en el menú del Escritorio, mostrará el número de actualizaciones pendientes.</p>
+<h3 id="crear-paginas-principales">Crear páginas principales</h3>
+<p>Una vez activado el Divi, procederemos a crear las páginas principales que nos haya indicado el cliente en la reunión (normalmente [Inicio, Sobre Nosotros, Servicios/Productos, Contacto]). Para ello, iremos a la pestaña de "<strong>Páginas</strong>" y "<strong>Añadir nueva Página</strong>".</p>
+<p><img src="../../../images/make_a_website/paginas.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+<br>
+Con esto crearemos la estructura principal de la web, donde luego iremos añadiendo el contenido que nos haya pasado el cliente.</p>
+<h3 id="menu">Menú</h3>
+<p>Una vez creadas las páginas principales, podremos crear el menú principal que colocaremos en el Header.</p>
+<p>Iremos a "<strong>Apariencia</strong>" ➡️ "<strong>Menús</strong>" ➡️ "<strong>Crear un nuevo menú</strong>".</p>
+<p><img src="../../../images/make_a_website/menu-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+</br>
+Ahora rellenaremos el campo de "<em>Nombre</em>" con ➡️ Menú Principal</p>
+<p>Y seleccionaremos en "<em>Dónde se verá</em>" ➡️ Menú Principal</p>
+<p>Para crearlo, simplemente pulsamos en "<strong>Crear menú</strong>" y se nos creará el menú.</p>
+<p><img src="../../../images/make_a_website/menu-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"> <br></p>
+<p>En este menú añadiremos las páginas que hemos creado anteriormente. Para ello, simplemente seleccionamos las páginas que queremos añadir (en el menú de la izquierda) y pulsamos en "<strong>Añadir al menú</strong>".</p>
+<p><img src="../../../images/make_a_website/menu-3.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p><br>
+Por último, le daremos a "<strong>Guardar menú</strong>" y ya tendremos el menú creado con todas las páginas creadas.</p>
+<h3 id="enlaces-permanentes">Enlaces permanentes</h3>
+<p>Si accedemos al dominio del cliente, notaremos que aunque hemos creado las páginas principales y el menú, estos no se ven. Porque Wordpress no está detectado la página de <strong>Inicio</strong> como la página principal. Para ello deberemos cambiar los enlaces permanentes.</p>
+<p>Accedemos a "<strong>Ajustes</strong>" ➡️ "<strong>Enlaces permanentes</strong>" y seleccionamos la opción de "<strong>Nombre de la entrada</strong>".</p>
+<p><img src="../../../images/make_a_website/enlaces-permanentes-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;">
+<br>
+Una vez hecho esto, le daremos a "<strong>Guardar cambios</strong>" y ya tendremos el nombre de los enlaces cambiados. Ahora la página de <strong>Contacto</strong> por ejemplo se mostrará como [domino del cliente]/contacto/ y no con un nombre raro.
+<br></br>
+Pero esto no es todo, deberemos acceder a <strong>Ajustes</strong> ➡️ "<strong>Lectura</strong>" y seleccionar la opción de "<strong>Una página estática</strong>". Colocar como página estática la página que queramos que sea la principal, usualmente <strong>Inicio</strong>.</p>
+<p><img src="../../../images/make_a_website/enlaces-permanentes-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<h3 id="footer">Footer</h3>
+<p>Para añadir el footer, nos podemos guiar por la siguiente documentación: <br><a href="/01_Guias/01_Web_Principal/Footer/footer/"> Añadir Footer</a></p>
+<h3 id="header">Header</h3>
+<p>El encabezado de Divi es un poco especialito, ya que no se puede editar como el resto de las páginas. </p>
+<p>Para ello, deberemos ir a "<strong>Apariencia</strong>" ➡️ "<strong>Personalizar</strong>" ➡️ "<strong>Encabezado y navegación</strong>".</p>
+<p><img src="../../../images/make_a_website/apariencia.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<h3 id="editar-con-divi">Editar con Divi</h3>
+<p>Para editar con Divi, simplemente accedemos a la página que queremos editar y le damos a "<strong>Activar el constructor Divi</strong>".</p>
+<p><img src="../../../images/make_a_website/editor.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Se nos abrirá la página con el overlay de edición de Divi, aquí ya podremos añadir bloes y demás que queramos para editar la página.</p>
+<p>Para saber como editar con Divi puedes hacer el curso que tiene Ordenatech en Udemy</p>
+<p>Curso Udemy de Divi: </p>
+<p>O ver algún tutorial en Youtube, como este:</p>
+<iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/B-8KGxBxXRY?si=UR75bd6Nf1Sh2VOo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h3 id="importar-template-de-divi">Importar template de Divi</h3>
+<p>Normalmente las páginas no las empezaremos a desarrollar desde cero. Esperaremos a que el cliente elija la plantilla que quiera y a partir de ahí, la editaremos a su gusto.</p>
+<h4 id="para-divi-express">🔴 Para Divi Express</h4>
+<p>Para Divi Express, iremos a "<strong>Divi</strong>" ➡️ "<strong>Biblioteca Divi</strong>" ➡️ "<strong>Importar y exportar</strong>".</p>
+<p><img src="../../../images/make_a_website/biblioteca.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Aquí tendremos que elegir el archivo JSON que contenga la plantilla elegida por el cliente.</p>
+<p><img src="../../../images/make_a_website/biblioteca-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez que la plantilla ha sido importada correctamente, el siguiente paso será aplicarla a las páginas deseadas del sitio web. Para hacerlo, se debe seguir este procedimiento:</p>
+<ul>
+<li>
+<p>Accede al Escritorio de WordPress y selecciona la página en la que deseas añadir la plantilla.</p>
+</li>
+<li>
+<p>Haz clic en la opción Editar con Divi para abrir el editor visual.</p>
+</li>
+<li>
+<p>Dentro del editor, selecciona la opción Elegir diseño.</p>
+</li>
+<li>
+<p>Desde el catálogo de diseños disponibles, selecciona la plantilla previamente importada y aplícala a la página.</p>
+</li>
+</ul>
+<p>Este proceso permitirá personalizar las páginas del sitio de manera rápida y eficiente utilizando los recursos del tema Divi.</p>
+<p><img src="../../../images/make_a_website/importar.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<h4 id="para-divi-layouts-elegant-themes">🔴 Para Divi Layouts (Elegant Themes)</h4>
+<p>Vamos directamente al editor de Divi en la página que queramos añadir la plantilla y en el menú que nos sale le daremos a "<strong>Elegir diseño</strong>".</p>
+<p><img src="../../../images/make_a_website/importar.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Dentro de ahí buscaremos el nombre de la plantilla que eligió el cliente y la seleccionamos.</p>
+<p><img src="../../../images/make_a_website/importar-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Luego se nos abrirá la ventana del template y le daremos a "<strong>Use this Layout</strong>".</p>
+<p><img src="../../../images/make_a_website/importar-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Con eso se importará automáticamente la plantilla y la podremos editar a nuestro gusto.</p>
+<h3 id="recaptcha-v3">ReCaptcha v3</h3>
+<p>Cada vez que añadamos un formulario a la web, deberemos añadir el reCaptcha v3 para evitar spam. Para ello, seguiremos los siguientes pasos:</p>
+<ul>
+<li>Ir a la página de reCaptcha de Google: <a href="https://www.google.com/recaptcha/admin/create">Google reCaptcha</a><ul>
+<li>Iniciar sesión con la cuenta de Google de becario.</li>
+</ul>
+</li>
+</ul>
+<p><img src="../../../images/make_a_website/recaptcha.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Rellenaremos los campos según la web que estemos haciendo. y una vez terminado, nos llevará a la página donde nos mostrará la clave pública y privada del reCaptcha para ese dominio.</p>
+<p><img src="../../../images/make_a_website/recaptcha-1.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Dejaremos esa página abierta ya que necesitaremos esas claves para añarilas a la web.</p>
+<p>Vamos a la página donde está el formulario y entramos en las opciones del mismo. Accederemos al apartado de "<strong>Protección contra el Spam</strong>". Como proveedor de servicio seleccionamos ReCaptcha y añadimos las claves que nos ha dado Google. Ponemos nombre para el perfil "Ordenatech"</p>
+<p><img src="../../../images/make_a_website/recaptcha-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Hay que compartir el reCAPTCHA a cristian@ordenatech.es y a marco@ordenatech.es para que ellos tengan también acceos al reCAPTCHA.</p>
+</div>
+<h3 id="seo">SEO</h3>
+<p>El SEO (Search Engine Optimization) es el conjunto de técnicas destinadas a optimizar páginas web para mejorar su posicionamiento en los motores de búsqueda, como Google, aumentando su visibilidad y tráfico orgánico. Se aplica mediante estrategias como el uso de palabras clave, metaetiquetas, contenido relevante, enlaces internos y externos, y una estructura técnica adecuada.</p>
+<p>Para configurarlo de forma sencilla necesitaremos el plugin de Yoast SEO, que debería estar instalado con el paquete de plugins inicial.</p>
+<p>Vamos a "<strong>Yoast SEO</strong>" ➡️ "<strong>General</strong>" ➡️ "<strong>Configuración Inicial</strong>".</p>
+<p><img src="../../../images/make_a_website/SEO.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Seguiremos la configuración inicial, proporcionandole al plugin todos los datos que sepamos sobre el cliente.</p>
+<p><img src="../../../images/make_a_website/SEO-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez terminemos este apartado, accederemos a editar la página (no con Divi) de "<strong>Inicio</strong>" y en la parte inferior de la página, nos aparecerá el apartado de Yoast SEO. Aquí podremos añadir el "título SEO", "palabra clave" y la "descripción SEO" de la página.</p>
+<p><img src="../../../images/make_a_website/SEO-3.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p><img src="../../../images/make_a_website/SEO-4.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>La cara del análisis SEO nos indicará si el SEO está bien o no. Si está en verde, significa que está bien, si está en rojo, significa que hay que cambiar algo. Normalmente lo podemos dejar en narajna, pero si tenemos tiempo es mejor que lo mejoremos hasta que esté en verde.</p>
+<p>La "Meta description" debe tener la barra en verde. Nos la inventaremos o la sacaremos de la IA.</p>
+<p>Esto mismo lo haremos en la página de "<strong>Contacto</strong>".</p>
+<h3 id="idiomas">Idiomas</h3>
+<p>Para la traducción de la web, utilizaremos el plugin GTranslate. Este plugin permite traducir automáticamente el contenido de la página a varios idiomas, facilitando la accesibilidad y comprensión para usuarios de diferentes regiones.</p>
+<p>En caso de que el cliente quiera añadir los idiomas de forma manual, usaremos otro plugin distinto.</p>
+<p>Para añadir los idiomas seugiremos el siguiente tutorial: <a href="/01_Guias/01_Web_Principal/04_add_languages/"><strong>Tutorial Idiomas</strong></a></p>
+<h2 id="fase-3-indexacion-y-justificacion">Fase 3: Indexación y justificación</h2>
+<h3 id="google-my-business">Google My Business</h3>
+<p>Para que la web aparezca en google con la tarjeta de empresa, es necesario añadirla a Google My Business. </p>
+<p>Nos encontraremos con casos en los que el cliente ua ha registrado su negocio en Google My Business, por lo que no será necesario añadirlo. En caso de que no lo haya hecho, le comunicaremos que tiene que cambiar el link de su página web linkeada en Google My Business para que aparezca la nueva página que le creamos nosotros.</p>
+<p>En caso de que no la tenga registrada, es necesario que la registremos nosotros.</p>
+<p>Accederemos al siguiente link: <a href="https://business.google.com/">Google My Business</a></p>
+<p>Ahí nos registramos con la cuenta de becario si no está registrada y añadiremos una nueva empresa. Seguimos los pasos añadiendo la información que nos solicitan y cuando terminemos la empresa quedará registrada en Google My Business.</p>
+<p><img src="../../../images/make_a_website/mybusiness.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Hay que compartir el acceso a cristian@ordenatech.es y a marco@ordenatech.es para que ellos tengan también administración.</p>
+</div>
+<h3 id="google-search-console">Google Search Console</h3>
+<p>Google Search Console es una herramienta gratuita de Google que permite a los propietarios de sitios web supervisar y optimizar su presencia en los resultados de búsqueda de Google. Proporciona información valiosa sobre el rendimiento del sitio, la indexación, las palabras clave y otros aspectos técnicos que pueden afectar la visibilidad en línea.</p>
+<p>Básicamente, que si no registramos la empresa aquí, no aparecerá en Google. Por lo que es necesario que lo hagamos para que el cliente pueda ver su página web desde el buscador (sino, se van a quejar).</p>
+<p>Accederemos al siguiente link: <a href="https://www.google.com/webmasters/tools/home?utm_source=about.google&amp;utm_medium=referral&amp;utm_campaign=productslist">Google Search Console</a></p>
+<p>Y nos registraremos si la cuenta de usuario no está registrada. Una vez dentro, le daremos a "<strong>Añadir propiedad</strong>" y añadiremos el dominio del cliente.</p>
+<p><img src="../../../images/make_a_website/search-console.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez nos haya verificado, nos pedirá que añadamos una verificación de la página. Lo haremos con "<strong>Etiqueta HTML</strong>", copiamos el mensaje que nos sale debajo. No cerramos la página.</p>
+<p><img src="../../../images/make_a_website/search-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez copiado el código que nos proporcionan, nos dirigimos al panel de administración de WordPress y accedemos a la sección de "<strong>Ajustes</strong>" ➡️ "<strong>Yoast SEO</strong>" ➡️ "<strong>General</strong>" ➡️ "<strong>Conexiones del sitio</strong>". Y pegamos en el apartado de Google el código que nos han proporcionado. Luego le daremos a "<strong>Guardar cambios</strong>".</p>
+<p><img src="../../../images/make_a_website/search-3.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez guardado, volveremos a la pestaña de Google Search Console y pulsamos en el apartado de "Etiqueta HTML" en "<strong>Verificar</strong>". Esperamos a que termine de verificar y si todo ha ido bien, nos saldrá un mensaje de que la verificación ha sido correcta.</p>
+<p><img src="../../../images/make_a_website/search-4.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Hay que compartir el acceso a cristian@ordenatech.es y a marco@ordenatech.es para que ellos tengan también administración.</p>
+</div>
+<h3 id="bing">Bing</h3>
+<p>Para añadi rla página al buscador de Bing será similar a Google Search Console, pero en este caso podemos hacerlo de forma más sencilla, ya que Bing nos permite importar la verificación desde Search Console directamente.</p>
+<p>Accedemos a <a href="https://www.bing.com/webmasters/about">Bing Webmaster Tools</a></p>
+<p>Entramos con la cuenta que usamos en Search Console y al darle a añadir propiedad, nos dará la opción de importar la verificación desde Google Search Console. </p>
+<p><img src="../../../images/make_a_website/bing.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Le damos todos los permisos y seleccionamos solo la página que queremos importar.</p>
+<p><img src="../../../images/make_a_website/bing-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Una vez hecho esto, ya tendremos la página añadida a Bing y nos saldrá un mensaje de verificación</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Hay que compartir el acceso a cristian@ordenatech.es y a marco@ordenatech.es para que ellos tengan también administración.</p>
+</div>
+<h3 id="cylex-firmania-encuentre-abierto">Cylex | Firmania | Encuentre Abierto</h3>
+<p>Para la justificación del Kit Digital, es necesario añadir la página web a los portales de Cylex, Firmania y Encuentre Abierto. Estos portales son directorios de empresas que permiten a los negocios locales aumentar su visibilidad en línea y atraer más clientes potenciales.</p>
+<p>Tienen un sistema en el cual, cuando registras la empresa en Cylex, se añade automáticamente a Firmania y Encuentre Abierto.</p>
+<p>Para ello accedemos a la Web de <a href="https://www.cylex.es/"><strong>Cylex</strong></a>, nos registramos con la cuenta de becario si no está registrada y le damos a "<strong>Registrar empresa</strong>"</p>
+<p><img src="../../../images/make_a_website/cylex.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Es posible que no nos deje registrar la web, si nos sale lo siguiente no podremos hacerlo, contactar con Marco.
+<img src="../../../images/make_a_website/cylex-2.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+</div>
+<p>Una vez terminemos el registros de la empresa, inmediatamente lo tendremos en cylex y firmania. encuentre abierto suele tardar entre unos minutos y unas cuantas horas (a veces hasta 24h). Tenemos la teoría de que no aparece en encuentre abierto hasta que el horario del local esté abierto.</p>
+<p>Para ver los perfiles de cada uno de ellos, dentro del panel de control de la empresa, accederemos al botón "<strong>Ver perfil público</strong>" y aparecerán los links en el selector.</p>
+<p><img src="../../../images/make_a_website/cylex-4.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<p>Estos 3 links de cada página los necesitaremos para la justificación del Kit Digital.</p>
+<h4 id="cambiar-imagen-de-perfil-en-cylex">Cambiar imagen de perfil en Cylex</h4>
+<p>En el panel de control de la empresa nos aparecerá un apartado para subir el logotipo, lo cargamos y lo guardamos. Se actualizará en las 3 páginas.</p>
+<p><img src="../../../images/make_a_website/cylex-3.webp" alt="Imagen de la carpeta datos en google drive." style="display: block; margin: auto; max-width: 100%; height: auto;"></p>
+<h3 id="justificacion">Justificación</h3>
+<p>Al final del desarrollo de una Web de Kit Digital, deberemos hacer la justificación del bono.</p>
+<p>Para ello vamos a seguir el siguiente tutorial: <a href="\07_Justificación\sitioweb"><strong>Guía Justificación</strong></a></p>
+<h3 id="final">Final</h3>
+<p>Una vez llegado a este punto, solo quedará avisar al cliente por correo para que vea la página y agendar una segunda reunión para que comente que le parece, los cambios que quiera y demás. Solo queda esperar a que mande los cambios y seguir con el mantenimiento de 1 año que tienen gracias al Kit Digital.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
